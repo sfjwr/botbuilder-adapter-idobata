@@ -1,0 +1,45 @@
+{
+  "name": "botbuilder-adapter-idobata",
+  "version": "0.1.0",
+  "description": "Connect Botkit or BotBuilder to Idobata",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sfjwr/botbuilder-adapter-idobata.git"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "lint": "./node_modules/.bin/eslint src/*"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "botkit": "^4.6.2",
+    "bufferutil": "^4.0.1",
+    "eventsource": "^1.0.7",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "@types/eventsource": "^1.1.2",
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.19.1",
+    "typescript": "^3.8.3"
+  },
+  "auther": "sfjwr",
+  "keywords": [
+    "botkit",
+    "botbuilder",
+    "botframework",
+    "bots",
+    "chatbots",
+    "idobata"
+  ]
+}
